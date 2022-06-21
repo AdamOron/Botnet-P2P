@@ -1,6 +1,7 @@
 # Botnet-P2P
 This is a decentralized Peer-to-Peer Botnet.  
 I began working on this project recently, so it's still in a pretty rough state. There's some junk code used for testing purposes, but the framework itself should be pretty solid.  
+This is not yet an actual botnet, but rather the foundation for one. My goals for the next couple of weeks are to make it functional and stable, and then to add some actual malware-like functionality (persistence, privilege escalation, e.t.c).
 
 ## The Goal Of This Project
 Generally speaking, the purpose of this project is to get into malware development.  

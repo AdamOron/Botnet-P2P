@@ -5,7 +5,7 @@ This is not yet an actual botnet, but rather the foundation for one. My goals fo
 
 ## The Goal Of This Project
 Generally speaking, the purpose of this project is to get into malware development.  
-More specifically, my goal is to create a "decentralized" peer-to-peer botnet, where the bots communicate & depend on eachother. Whenever a command is passed to the botnet, instead of having the C&C server communicate directly with each bot, the C&C server contacts a single bot, which then contacts another single bot, and so on.  
+More specifically, my goal is to create a "decentralized" peer-to-peer botnet, where the bots communicate & depend on eachother. Whenever a command is passed to the botnet, instead of having the C&C server communicate directly with each bot, the C&C server contacts a single bot, which then contacts another single bot, and so on.
 The purpose of this architecture is to hide the host of the botnet.
 
 ## Project Structure

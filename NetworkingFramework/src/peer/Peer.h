@@ -116,10 +116,6 @@ private:
 
 public:
     Peer(const char *port);
-    ~Peer()
-    {
-        printf("back to the lobby");
-    }
     void Connect(const char *host, const char *port);
     void Host();
 };

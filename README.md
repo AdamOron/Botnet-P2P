@@ -13,4 +13,4 @@ The purpose of this architecture is to hide the host of the botnet and make him 
 This networking framework uses the Winsock library.
 * The peer-to-peer networking is defined in `src/peer`, where there's an implementation of a peer and a specification of the botnet's protocol.
 * Like any other networking-related framework, multiple connections need to be managed simultaneously, which requires usage of threads. For this purpose, a basic thread pool/manager is defined under `src/threading`. This is done to keep track of created threads and ensure there's a maximum amount of them allowed.
-* I also created an event system that's used to manage all network-related events (data received, connection created, e.t.c). This allows abstraction and separation between the actual network components and the handling of these events.
+* I also created an event system that's used to manage all network-related events (data received, connection created, e.t.c), located under `src/eventsystem`. This allows abstraction and separation between the actual network components and the handling of these events.
